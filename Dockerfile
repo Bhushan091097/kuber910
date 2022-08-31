@@ -1,4 +1,4 @@
-FROM centos: latest
+FROM bhushan0910/kuber910: latest
 MAINTAINER sanjay.dahiya332@gmail.com
 RUN apt install apache2
 RUN apt-get install zip
