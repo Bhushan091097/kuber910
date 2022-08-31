@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM bhushan0910/kuber910:latest
 MAINTAINER chaudhari.910.bhushan@gmail.com
 RUN yum install -y httpd
 RUN yum install -y zip
