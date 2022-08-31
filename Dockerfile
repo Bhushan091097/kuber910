@@ -1,5 +1,5 @@
 FROM bhushan0910/kuber910: latest
-MAINTAINER sanjay.dahiya332@gmail.com
+MAINTAINER chaudhari.910.bhushan@gmail.com
 RUN apt install apache2
 RUN apt-get install zip
 RUN apt-get install unzip
