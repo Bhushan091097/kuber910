@@ -1,5 +1,6 @@
 FROM bhushan0910/kuber910:latest
 MAINTAINER chaudhari.910.bhushan@gmail.com
+RUN yum update
 RUN yum install httpd
 RUN yum install zip
 RUN yum install unzip
